@@ -5,13 +5,15 @@ const Header = (title, date, temp) => {
   // The tags used, the hierarchy of elements and their attributes must match the provided markup exactly!
   // The text inside elements will be set using their `textContent` property (NOT `innerText`).
   //
-  //  <div class="header">
-  //    <span class="date">{ date }</span>
-  //    <h1>{ title }</h1>
-  //    <span class="temp">{ temp }</span>
-  //  </div>
-  //
+   <div class="header">
+     <span class="date">{ date }</span>
+     <h1>{ title }</h1>
+     <span class="temp">{ temp }</span>
+   </div>
+  
 }
+
+
 
 const headerAppender = (selector) => {
   // TASK 2
